@@ -1,0 +1,76 @@
+
+/*Se manipula la clase circulo con estilos css*/
+.circulo{
+    /* Establece el ancho de todas las imágenes en 250 píxeles.*/
+    width: 100px;
+    /*Establece la altura de todas las imágenes*/
+    height: 100px;
+    /*Establece el radio de las esquinas de todas las imágenes en 30 píxeles, lo que crea un efecto de borde redondeado.*/
+    border-radius: 50%;
+    /*Parece que falta un valor para esta propiedad. Deberías especificar un color en hexadecimal, RGB, RGBA, HSL, HSLA, o utilizando palabras clave como "red", "blue", etc.*/
+    background-color: blue;
+    /* Establece el estilo de borde de los elementos con la clase */
+    border-style: solid;
+    /* Agrega un margen de 10 píxeles en la parte inferior del elemento.*/
+    margin-bottom: 10px;
+    display: block;
+    /*Al igual que el valor anterior, parece ser un valor de margen inusual sin una unidad de medida específica. Además, usar un valor negativo (-10cap) podría tener un efecto impredecible y no deseado.*/
+    margin-left: auto;
+    /*Establece el margen izquierdo y derecho del elemento en "auto", lo que hace que el elemento se centre horizontalmente dentro de su contenedor padre.*/
+    margin-right: auto;
+}
+/*Se manipula la clase rectangulo con estilos css*/
+.rectangulo{
+    background-color: blueviolet;
+    /* Establece el ancho de todas las imágenes en 250 píxeles.*/
+    width: 100px;
+     /*Establece la altura de todas las imágenes*/
+    height: 100px;
+    /*El borde del rectángulo es de estilo sólido.*/
+    border-style: solid;
+    /*El rectángulo se muestra como un bloque.*/
+    display: block;
+    /*Se centra horizontalmente en la página utilizando margen automático tanto a la izquierda como a la derecha.*/
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/*Se manipula la clase triangulo con estilos css*/
+.triangulo{
+    /* Establece el ancho de todas las imágenes.*/
+    width: 0;
+    /*Establece la altura de todas las imágenes*/
+    height: 0;
+    /*Se utiliza la propiedad "border" para definir los lados del triángulo.*/
+    border-left: 80px solid transparent;
+    /*El lado superior del triángulo tiene un ancho de 0.*/
+    border-right: 70px solid transparent;
+    /*El lado inferior del triángulo tiene un ancho de 150 píxeles y un color de fondo especificado como rgb(222, 135, 195).*/
+    border-bottom: 150px solid rgb(222, 135, 195);
+    /*El triángulo se centra horizontalmente en la página utilizando márgenes automáticos tanto a la derecha como a la izquierda.*/
+    margin-right: auto;
+    margin-left: auto;
+    /*El triángulo se muestra como un bloque.*/
+    display: block;
+    
+}
+/*Se manipula la clase rombo con estilos css*/
+.rombo{
+    /* Establece el ancho de todas las imágenes.*/
+    width: 150px;
+    /*Establece la altura de todas las imágenes*/
+    height: 150px;
+    /*Establece el color de fondo del elemento en aqua.*/
+    background-color: aqua;
+    /*Se establece la posición del elemento como relativa.*/
+    position: relative;
+    /*Se aplica una rotación de 45 grados al elemento utilizando la propiedad "transform", lo que lo convierte en un rombo.*/
+    transform: rotate(45deg);
+    /*Se añade un margen superior de 40 píxeles para ajustar la posición del rombo en la página*/
+    margin-top: 40px;
+    /*El borde del rombo es de estilo sólido.¨*/ 
+    border-style:solid;
+    /*El rombo se centra horizontalmente en la página utilizando márgenes automáticos tanto a la derecha como a la izquierda.*/
+    margin-left: auto;
+    margin-right: auto;
+}
